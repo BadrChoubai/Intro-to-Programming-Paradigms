@@ -20,9 +20,6 @@ function signupHandler(event) {
     const usernameEntry = usernameInput.value;
     const passwordEntry = passwordInput.value;
 
-    console.log(usernameEntry);
-    console.log(passwordEntry);
-
     if (usernameEntry.trim().length == 0) {
         alert('Invalid input - username must not be empty.');
         return;
@@ -39,6 +36,7 @@ function signupHandler(event) {
     };
 
     console.log(user);
+    return user;
 }
 
 form.addEventListener('submit', signupHandler);
