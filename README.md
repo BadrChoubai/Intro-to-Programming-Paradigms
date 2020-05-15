@@ -6,19 +6,19 @@ Resources: [Functional, Procedural & Object-oriented Programming - An Overview](
 
 ---
 
-## Object-Oriented Programming
-
-[View Code](/objectOriented/index.js)
-
-- Organize data and logic in objects (properties + methods)
-- Organize code in logical entities.
-
 ## Procedural Programming
 
 [View Code](/procedural/index.js)
 
 - Write sequential series of execution steps/tasks.
 - "Top to bottom" code execution.
+
+## Object-Oriented Programming
+
+[View Code](/objectOriented/index.js)
+
+- Organize data and logic in objects (properties + methods)
+- Organize code in logical entities.
 
 ## Functional Programming
 
