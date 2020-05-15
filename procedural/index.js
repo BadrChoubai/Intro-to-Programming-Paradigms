@@ -9,3 +9,36 @@
  * */
 
 console.log('Procedural Code Loaded');
+
+const form = document.getElementById('user-input');
+
+function signupHandler(event) {
+    event.preventDefault(); // Prevent browser default of sending form to server
+    const usernameInput = document.getElementById('username');
+    const passwordInput = document.getElementById('password');
+
+    const usernameEntry = usernameInput.value;
+    const passwordEntry = passwordInput.value;
+
+    console.log(usernameEntry);
+    console.log(passwordEntry);
+
+    if (usernameEntry.trim().length == 0) {
+        alert('Invalid input - username must not be empty.');
+        return;
+    }
+
+    if (!passwordEntry.trim().length >= 6) {
+        alert('Invalid input - password must be 6 characters or longer.');
+        return;
+    }
+
+    const user = {
+        username: usernameEntry,
+        password: passwordEntry,
+    };
+
+    console.log(user);
+}
+
+form.addEventListener('submit', signupHandler);
