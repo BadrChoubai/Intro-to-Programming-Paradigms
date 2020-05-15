@@ -1,8 +1,8 @@
 /**
  * Functional Programming Code
  *
- * Similarly to object oriented we think of our code like objects but instead,
- * we structure it into different logical blocks.
+ * Like object oriented we think of our code in parts but,
+ * we structure it as different logical blocks.
  *
  */
 
